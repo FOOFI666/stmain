@@ -1,0 +1,78 @@
+// main: ../style.less
+
+.header {
+    
+}
+
+.header__inner {
+    display: flex;
+    
+    @media @mobile {
+        display: block;
+    }
+}
+
+.header__logo {
+    @media @mobile {
+        margin-bottom: 1rem;
+    }
+}
+
+.header__name {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #00bfff;
+    @media @mobile {
+        font-size: 1rem;
+    }
+    
+}
+
+.header__subname {
+    color: @gray-light;
+    font-size: 1.09rem;
+    @media @mobile {
+        font-size: 0.55rem;
+    }
+}
+
+.header__hours {
+    display: flex;
+    margin-left: auto;
+    
+    @media @mobile {
+        margin-bottom: 1rem;
+    }
+}
+
+.hours {
+    font-size: 1.545rem;
+    @media @mobile {
+        font-size: 0.78rem;
+    }
+}
+
+
+.header__number {
+    align-items: center;
+    margin-left: auto;
+    display: flex;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 3.09rem;
+    
+    @media @mobile {
+        font-size: 1.2rem;
+    }
+}
+
+.header__img {
+    height: 57px;
+    width: 57px;
+    @media @mobile {
+        height: 30px;
+        width: 30px;
+    }
+}
